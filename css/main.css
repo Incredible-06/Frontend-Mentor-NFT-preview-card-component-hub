@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    margin: 0;
+}
+
+.hijo {
+    display: flex;
+    justify-content: center;
+    margin: 15vh auto;
+}
+
+.content{   
+    display: inline-block;
+    background: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    padding: 10px 22.5px;
+    border-radius: .7em;
+    /* box-shadow: 3px 7px 7px hsl(214, 29%, 15%); */
+}
+
+/* ---------------
+    Images styles
+   ---------------*/
+
+.nft-image {
+    width: 255px;
+    height: 255px;
+    margin-top: 10px;
+    background: cyan;
+    border-radius: .7em;
+    opacity: .9;
+}
+
+.hijo .nft-image #equilibrium-img {
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    border-radius: .5em;
+    margin: 0 0 15px;
+}
+
+.hijo .nft-image .view {
+    margin: 104px;
+    opacity: 1;
+}
+
+.hijo .nft-image #equilibrium-img:hover {
+    opacity: .4;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+/* --------------
+      Content
+   --------------*/
+
+.hijo #nft-name {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0 15px;
+    font-size: 18px;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+}
+
+.hijo a:hover, .creator a:hover {
+    color: hsl(178, 100%, 50%) !important;
+    cursor: pointer;
+}
+
+.hijo p {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+/* --------------------
+    Price and creator
+   --------------------*/
+
+.price {
+    display: inline-block;
+    position: relative;
+    left: 3px;
+    right: 15px;
+    bottom: 3px;
+    padding-right: 85px;
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.time {
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(215, 32%, 27%);
+}
+
+.line {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    height: 2px;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.hijo #avatar {
+    max-width: 11%;
+    margin-top: 15px;
+    border-radius: 100%;
+    border: 1.5px solid #fff;
+}
+
+.creator {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 14px;
+    position: relative;
+    left: 8px;
+    bottom: 8px;
+}
