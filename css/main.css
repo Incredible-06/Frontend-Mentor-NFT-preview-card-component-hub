@@ -8,20 +8,15 @@ body {
     margin: 0;
 }
 
-.hijo {
-    display: flex;
-    justify-content: center;
-    margin: 150px auto;
-}
-
 .content{   
-    display: inline-block;
+    margin: 150px auto;
     background: hsl(216, 50%, 16%);
-    width: 300px;
+    width: 310px;
     height: 510px;
-    padding: 10px 22.5px;
+    padding: 10px 27.5px;
+    outline: solid 2px hsl(216, 50%, 16%);
     border-radius: .7em;
-    /* box-shadow: 3px 7px 7px hsl(214, 29%, 15%); */
+    box-shadow: 0 0 20px 0 #14253d;
 }
 
 /* ---------------
