@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
+    font-size: 18px;
 }
 
 body {
@@ -9,11 +10,11 @@ body {
 }
 
 .content{   
-    margin: 150px auto;
+    margin: 3em auto;
     background: hsl(216, 50%, 16%);
-    width: 310px;
-    height: 510px;
-    padding: 10px 27.5px;
+    width: 17.222em;
+    height: 28.889em;
+    padding: 0.556em 22.1px;
     outline: solid 2px hsl(216, 50%, 16%);
     border-radius: .7em;
     box-shadow: 0 0 20px 0 #14253d;
@@ -24,8 +25,7 @@ body {
    ---------------*/
 
 .nft-image {
-    width: 255px;
-    height: 255px;
+    height: 14.8em;
     margin-top: 10px;
     background: hsl(178, 100%, 50%);
     border-radius: .7em;
@@ -34,13 +34,12 @@ body {
 
 .son .nft-image #equilibrium-img {
     position: absolute;
-    width: 255px;
-    height: 255px;
+    width: 14.778em;
     border-radius: .5em;
 }
 
 .son .nft-image .view {
-    margin: 104px;
+    margin: 6.056em;
 }
 
 .son .nft-image #equilibrium-img:hover {
@@ -57,7 +56,6 @@ body {
     text-decoration: none;
     display: inline-block;
     margin: 23px 0 15px;
-    font-size: 18px;
     font-weight: 800;
     color: hsl(0, 0%, 100%);
 }
@@ -70,7 +68,7 @@ body {
 .son p {
     margin: 0;
     padding-bottom: 20px;
-    font-size: 15px;
+    font-size: .85em;
     font-weight: 300;
     color: hsl(215, 51%, 70%);
 }
@@ -83,7 +81,7 @@ body {
     position: relative;
     left: 3px;
     bottom: 3px;
-    padding-right: 85px;
+    padding-right: 6.2em;
     color: hsl(178, 100%, 50%);
     font-size: 14px;
     font-weight: 600;
@@ -112,10 +110,10 @@ body {
     border: 1.5px solid #fff;
 }
 
-.creator {
+.son .content .creator {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    font-size: 14px;
+    font-size: .78em;
     position: relative;
     left: 8px;
     bottom: 8px;
