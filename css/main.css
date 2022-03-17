@@ -14,10 +14,10 @@ body {
     background: hsl(216, 50%, 16%);
     width: 17.222em;
     height: 28.889em;
-    padding: 0.556em 22.1px;
+    padding: 0.556em 1.228em;
     outline: solid 2px hsl(216, 50%, 16%);
     border-radius: .7em;
-    box-shadow: 0 0 20px 0 #14253d;
+    box-shadow: 0 0 1.111em 0 #14253d;
 }
 
 /* ---------------
@@ -26,7 +26,7 @@ body {
 
 .nft-image {
     height: 14.8em;
-    margin-top: 10px;
+    margin-top: 0.556;
     background: hsl(178, 100%, 50%);
     border-radius: .7em;
     opacity: 1;
@@ -52,23 +52,23 @@ body {
       Content
    --------------*/
 
-.son #nft-name {
+.son .content #nft-name {
     text-decoration: none;
     display: inline-block;
-    margin: 23px 0 15px;
+    margin: 1.278em 0 1em;
     font-weight: 800;
     color: hsl(0, 0%, 100%);
 }
 
-.son a:hover, .creator a:hover {
-    color: hsl(178, 100%, 50%) !important;
+.son .content #nft-name:hover {
+    color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
 
-.son p {
+.son .content p {
     margin: 0;
-    padding-bottom: 20px;
-    font-size: .85em;
+    padding-bottom: 1.4em;
+    font-size: 0.833em;
     font-weight: 300;
     color: hsl(215, 51%, 70%);
 }
@@ -79,33 +79,33 @@ body {
 
 .price {
     position: relative;
-    left: 3px;
-    bottom: 3px;
+    left: 0.167em;
+    bottom: 0.167em;
     padding-right: 6.2em;
     color: hsl(178, 100%, 50%);
-    font-size: 14px;
+    font-size: 0.778em;
     font-weight: 600;
 }
 
 .time {
     position: relative;
-    bottom: 3px;
+    bottom: 0.167em;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.778em;
     color: hsl(215, 32%, 27%);
 }
 
 .line {
     border-top: 1px solid hsl(215, 32%, 27%);
-    height: 2px;
+    height: 0.111em;
     max-width: 100%;
     padding: 0;
-    margin-top: 15px;
+    margin-top: 0.833em;
 }
 
-.son #avatar {
+.son .content #avatar {
     max-width: 11%;
-    margin-top: 20px;
+    margin-top: 1.111em;
     border-radius: 100%;
     border: 1.5px solid #fff;
 }
@@ -113,8 +113,20 @@ body {
 .son .content .creator {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    font-size: .78em;
+    font-size: 0.778em;
     position: relative;
-    left: 8px;
-    bottom: 8px;
+    left: 0.444em;
+    bottom: 0.6em;
+}
+
+.son .content .creator > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+.son .content .creator > a:hover {
+
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
