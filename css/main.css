@@ -14,9 +14,9 @@ body {
     background: hsl(216, 50%, 16%);
     width: 17.222em;
     height: 28.889em;
-    padding: 0.556em 1.228em;
+    padding: 1em 1.228em 0.88em;
     outline: solid 2px hsl(216, 50%, 16%);
-    border-radius: .7em;
+    border-radius: 0.7em;
     box-shadow: 0 0 1.111em 0 #14253d;
 }
 
@@ -25,8 +25,7 @@ body {
    ---------------*/
 
 .nft-image {
-    height: 14.8em;
-    margin-top: 0.556;
+    height: 14.777em;
     background: hsl(178, 100%, 50%);
     border-radius: .7em;
     opacity: 1;
